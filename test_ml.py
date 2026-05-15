@@ -4,7 +4,7 @@ import numpy as np
 import random
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelBinarizer, OneHotEncoder
-from ml.model import train_model, compute_model_metrics, inference
+from ml.model import train_model, compute_model_metrics
 from ml.data import process_data
 
 @pytest.fixture
